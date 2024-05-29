@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My shop</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://w7.pngwing.com/pngs/393/55/png-transparent-netflix-logo-thumbnail.png"
+    />
+    <!-- rel - 불러올 파일이 현재 파일과 어떤 관계인지를 설명 -->
+  </head>
+  <body>
+    <form action="#">
+      <label for="id">이메일</label>
+      <input type="email" />
+      <input type="submit" />
+    </form>
+
+    <!-- inline, block 요소 -->
+    <!-- block - 옆에 다른 태그를 두지 않음, 한줄 전체 차지하며 높이와 너비를 가진다. -->
+    <!-- inline - 옆에 다른 태그를 둠, 너비와 높이를 가지지 않음(width, height 설정하면 무시됨.)
+                - 안에 들어간 콘텐츠에 따라 너비와 높이가 정해진다. -->
+    <!-- block을 inline으로, inline을 block으로 변경할 땐 display 속성을 이용한다. -->
+    <!-- inline-block - inline처럼 전후 줄바꿈 없이 한 줄에 다른 요소들과 나란히 배치되지만,
+                        block 요소처럼 너비와 높이 속성 지정 및 margin과 padding 속성의 상하 간격 지정이 가능한 것 -->
+
+    <!-- margin -->
+    <!-- block - margin top, right, left, bottom 모두 적용 가능 -->
+    <!-- inline - margin left, right만 적용이 가능하며 top, bottom 적용을 원할 시, display: block;을 적용해야한다. -->
+
+    <!-- margin-collapsing -->
+    <!-- 마진 겹침 - border의 경계가 맞닥아있어 함께 움직이는 현상을 말한다. -->
+
+    <!-- pseudo(가상클래스) -->
+    <!-- focus-within - 부모 요소에 적용, 자식 요소가 포커스 됐을 때 부모의 상태 설정 -->
+
+    <!-- position -->
+    <!-- relative - 그 요소가 있었던 위치를 기준으로 움직인다.
+                  - 안쪽으로 이동할 땐 양수, 바깥쪽으로 이동할 때는 음수를 사용한다.-->
+    <!-- absolute - 부모 요소의 relative를 기준으로 움진인다. relative가 없는 경우 body를 기준으로 움직인다. -->
+
+    <!-- form span:nth-chid() -->
+    <!-- 자식 요소 span 중에서 몇번째 span인지가 아니라 전체 자식들 중 몇번째인지 확인하고 이를 입력해야한다. -->
+
+    <!-- transition -->
+    <!-- 변화하는데 속도를 지정 -->
+    <!-- 아무런 상태를 가지지 않는 요소에 설정해준다. 최초의 CSS 상태를 가지는 요소에 적용 -->
+    <!-- 이벤트가 발생해야 적용할 수 있다. -> 이벤트 없이 효과를 적용하려면 animation을 사용 -->
+
+    <!-- transform - 요소를 변형시키는 것 -->
+    <!-- translate(이동), scale(확대), rotate(회전) -->
+    <!-- 본인의 높이와 너비에 따라 이동한다. -->
+    <!-- 기존의 레이아웃에 영향을 주지 않는다. -->
+
+    <!-- animation -->
+    <!-- @keyframes animation name -->
+    <!-- from{} to{} -->
+    <!-- 0%{} 50%{} 100%{} -->
+  </body>
+</html>
